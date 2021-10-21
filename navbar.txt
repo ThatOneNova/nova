@@ -1,110 +1,100 @@
 <!DOCTYPE html>
 <html>
     
+
+    <body class="Background">
+        
+    </body>
+    
+
+    
+    
+
     <header class="NavBarHeader">
         
-        <nav class="NavClass">
-            
+        <nav>
             <div class="Navbar">
                 <ul>
                     <link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-                    <label class="NovaLabel">The Amazing Nova
-                        
-                    </label>
+                    <label class="NovaLabel">The Amazing Nova</label>
                     <ul class="TabUl">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="Credit.html">Credit</a></li>
-                        <li><a href="Games.html">Games</a></li>
-                        <li><a href="Apps.html">Apps</a></li>
-
                     </ul>
-                    <img src="/Images/logotransparent.png" alt="" class="Logo">
+
+
                     <a href="https://www.youtube.com/channel/UCEzx5iOY11B2I7kM-o3kjHA">
                         <button class="YoutubeButton">
                             
                         </button>
                     </a>
+
                     <a href="https://discord.gg/wP6CtgqHbm">
                         <button class="DiscordButton">
                             
                         </button>
                     </a>
+                    
                 </ul>
             </div>
         </nav>
     </header>
 
 
-    
-    <body class="Background">
-        <div class="UnderConstruction">
-            <img src="/Images/under-construction-10012274.jpg" alt="" class="UCI" >
-        </div>
-    </body>
+
+
+
+
+
+
 
     <head>
         <title>The Amazing Nova</title>
         
     </head>
     <style>
-        
-        
-        .UCI {
-            width: 100%;
-            height: 100%;
-        }
-        .UnderConstruction {
-            text-align: center;
-        }
         .NovaLabel {
             font-size: 30px;
             font-weight: bolder;
             font-family: 'Roboto', sans-serif;
             position: relative;
-            left: -426px;
-            bottom: -23px;
+            left: -430px;
+            bottom: -15px;
         }
         .YoutubeButton {
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
             
             background-image: url(/Images/youtube.png);
             background-size: contain;
+            background-color:  transparent;
             border: transparent;
             position: relative;
-            background-color: rgba(114, 114, 114, 0.5);
+            background-color: lightcyan;
             top: -40px;
-            left: 670px;
+            left: 630px;
             border-radius: 24px;
         }
-        .Logo {
-            width: 200px;
-            height: 200px;
-            float: left;
-            position: relative;
-            top: -109px;
-            left: -562px;
-        }
         .DiscordButton {
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
             
             background-image: url(/Images/discord.png);
             background-size: contain;
-            background-color: rgba(114, 114, 114, 0.5);
+            background-color: lightcyan;
             border-radius: 24px;
             border: transparent;
             position: relative;
             top: -40px;
-            left: 670px;
+            left: 630px;
         }
         
         .Background{
             
-            background-color: rgb(61, 60, 60);
+            background-color: rgb(56,52,85,255);
             position: fixed;
             top: 0;
             background-size: cover;
@@ -112,7 +102,12 @@
             height: 100%;
             margin : 0;
             padding: 0;
+            
         }
+        
+        
+        
+        
         <!--Nav Bar-->
         .Navbar {
             width: 80%;
@@ -121,11 +116,11 @@
             margin: 0 auto;
         }
         .NavBarHeader {
-            background-color: rgb(138, 138, 138);
+            background-color: rgb(8, 245, 134);
             height: 80px;
         }
         nav {
-            padding-left: 32%;
+            padding-left: 38%;
         }
         header::after {
             content: '';
@@ -139,6 +134,7 @@
 
             
         }
+        
         nav li {
             display: inline-block;
             margin-left: 50px;
@@ -151,13 +147,13 @@
             text-decoration: none;
             text-transform:uppercase;
             font-size: 18px;
-            color: yellow;
             font-weight: bold;
             font-family: 'Roboto', sans-serif;
         }
         nav a:hover {
             color: black;
         }
+
         nav a::before {
             content: '';
             display: block;
@@ -170,6 +166,7 @@
             transition: all ease-in-out 200ms;
 
         }
+
         nav a:hover::before {
             width: 100%;
         }
