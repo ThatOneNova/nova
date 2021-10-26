@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="LoginOrSignup.css">
+    <title>
+        Login Or Signup
+    </title>
+</head>
+
+<body>
+    <div class="Hero">
+        <div class="Formbox">
+            <div class="Button">
+                <div id="btn"></div>
+                <button type="button" class="ToggleButton" onclick="Login()">Login</button>
+                <button type="button" class="ToggleButton" onclick="Register()">Register</button>
+            </div>
+            <form class="InputGroup" id="Login">
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="chech-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+
+            <form class="InputGroup" id="Register">
+                <input type="text" class="input-field" placeholder="Email" required>
+                <input type="text" class="input-field" placeholder="Username" required>
+                <input type="text" class="input-field" placeholder="Password" required>
+                <input type="checkbox" class="chech-box"><span>I Agree To The Terms Of Service</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        var x= document.getElementById("Login");
+        var y= document.getElementById("Register");
+        var z= document.getElementById("btn");
+
+        function Register(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function Login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+        }
+    </script>
+</body>
+</html>

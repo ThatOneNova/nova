@@ -1,0 +1,121 @@
+.UCI {
+    width: 100%;
+    height: 100%;
+}
+.UnderConstruction {
+    text-align: center;
+}
+.NovaLabel {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: -426px;
+    bottom: -23px;
+}
+.YoutubeButton {
+    width: 40px;
+    height: 40px;
+    
+    background-image: url(Images/youtube.png);
+    background-size: contain;
+    border: transparent;
+    position: relative;
+    background-color: rgba(114, 114, 114, 0.5);
+    top: -40px;
+    left: 670px;
+    border-radius: 24px;
+}
+.Logo {
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    top: -109px;
+    left: -562px;
+}
+.DiscordButton {
+    width: 40px;
+    height: 40px;
+    
+    background-image: url(Images/discord.png);
+    background-size: contain;
+    background-color: rgba(114, 114, 114, 0.5);
+    border-radius: 24px;
+    border: transparent;
+    position: relative;
+    top: -40px;
+    left: 670px;
+}
+
+.Background{
+    
+    background-color: rgb(61, 60, 60);
+    position: fixed;
+    top: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin : 0;
+    padding: 0;
+}
+<!--Nav Bar-->
+.Navbar {
+    width: 80%;
+    position: relative;
+    
+    margin: 0 auto;
+}
+.NavBarHeader {
+    background-color: rgb(138, 138, 138);
+    height: 80px;
+}
+nav {
+    padding-left: 32%;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.TabUl {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    
+}
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    top: -10px;
+    
+    position: relative;
+}
+nav a {
+    color:rgb(94, 94, 94);
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 18px;
+    color: yellow;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+nav a:hover {
+    color: black;
+}
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    top: -60%;
+    background-color: black;
+    position: absolute;
+
+    transition: all ease-in-out 200ms;
+
+}
+nav a:hover::before {
+    width: 100%;
+}
