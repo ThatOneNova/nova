@@ -21,7 +21,13 @@ form {
     transition: all 1.5s ease-in-out;
 
 }
-.form-control {
+.TempBackground {
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px auto;
+}
+input {
+    height: 45px;
     width: 600px;
     background: transparent;
     border: none;
@@ -31,9 +37,6 @@ form {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
-}
-input {
-    height: 45px;
 }
 .form-control-submit{
     background: rgba(15, 167, 255, 0.315);
@@ -54,9 +57,35 @@ input {
     width: 80px;
     font-size: 25px;
     background: rgba(15, 167, 255, 0.315);
+    color: white;
     border: none;
+}
+.support {
+    width: 300px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+    background: rgba(15, 167, 255, 0.315);
+}
+.support:hover {
+    background: rgba(15, 167, 255, 0.644);
+    cursor: pointer;
+    font-size: 26px;
 }
 .Back:hover {
     background: rgba(15, 167, 255, 0.644);
     cursor: pointer;
+    font-size: 26px;
+}
+textarea {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(15, 167, 255);
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
 }
